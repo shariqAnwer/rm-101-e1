@@ -1,3 +1,17 @@
 .task {
-  /* Sample  */
+  width: 100%;
+  display:flex;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.task button{
+  border: none;
+  background: #8197e8;
+  color: white;
+  margin-left: 5px;
 }

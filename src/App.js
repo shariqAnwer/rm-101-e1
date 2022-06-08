@@ -1,13 +1,12 @@
 import React from "react";
-import TaskApp from "./components/TaskApp";
 import "./App.css";
+import TaskApp from "./components/TaskApp";
+import data from "./data/tasks.json";
 function App() {
   return (
-    <>
-      <div className="todo">
-        <TaskApp />
-      </div>
-    </>
+    <div className="app_container">
+      <TaskApp task={data} />
+    </div>
   );
 }
 
