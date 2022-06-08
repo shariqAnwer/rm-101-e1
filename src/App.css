@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.todo {
+    margin: auto;
+    border: 2px solid black;
+    width: 400px;
+    height: 90vh;
+    margin-top: 3%;
+}

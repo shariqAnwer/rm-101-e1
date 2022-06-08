@@ -9,8 +9,11 @@ const TaskHeader = () => {
   // NOTE: do not delete `data-testid` key value pair
   return (
     <div data-testid="task-header" className={styles.taskHeader}>
+      <span>You have </span>
       <b data-testid="header-remaining-task">{unCompletedTask}</b>
+      <span> of </span>
       <b data-testid="header-total-task">{totalTask}</b>
+      <span> tasks remaining</span>
     </div>
   );
 };
